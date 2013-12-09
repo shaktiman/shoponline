@@ -1,0 +1,96 @@
+/* Start: Recommended Isotope styles */
+
+/**** Isotope Filtering ****/
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+/**** Isotope CSS3 transitions ****/
+
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:      -o-transform, opacity;
+          transition-property:         transform, opacity;
+}
+
+/**** disabling Isotope CSS3 transitions ****/
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+     -moz-transition-duration: 0s;
+      -ms-transition-duration: 0s;
+       -o-transition-duration: 0s;
+          transition-duration: 0s;
+}
+
+/* End: Recommended Isotope styles */
+
+
+
+/* disable CSS transitions for containers with infinite scrolling*/
+.isotope.infinite-scrolling {
+  -webkit-transition: none;
+     -moz-transition: none;
+      -ms-transition: none;
+       -o-transition: none;
+          transition: none;
+}
+
+
+.item{height:150px; width:150px; border:1px solid #000; float:left; margin:10px;}
+.motherBlock{height:200px; width:400px; border:1px solid #CCC; margin:0 30px 30px 0;}
+.element{width:300px; margin:20px 20px 0px 0; border:1px solid #CCC; padding:20px; text-align:center; border-radius:4px; cursor:pointer;}
+.element:hover{box-shadow:0 0 10px 0px #CCC; border:1px solid #DDD;}
+#filters{margin:30px 0; padding:0px;}
+#filters li{float:left; margin:0 10px; list-style:none;}
+
+.cust-hspacer-10{height:10px;}
+.cust-hspacer-20{height:20px;}
+.cust-hspacer-30{height:30px;}
+.container{border:0px solid #EEE; padding:20px; border-radius:4px; min-height:500px;}
+
+.listing{list-style:none; margin:0px 20px; padding:0px;}
+.title{color:#003366;}
+
+.pimage img{margin:20px; width:60%;}
+
+body{overflow-y:scroll;}
+.price{color:#609;}
+#productDetails{display:none;}
+#productDetails .element{cursor:default;}
+#productDetails , #productDetails .element{width:100%; text-align:left;}
+#productDetails , #productDetails{}
+#productDetails .pimage{}
+#productDetails .pimage img{width:100%;text-align:right;}
+
+.description{float:left;}
+
+#productDetails .mobile img{width:210px;}
+.navbar-brand{padding:0px; margin:0 0 10px 0;}
